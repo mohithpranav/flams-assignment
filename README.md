@@ -64,7 +64,10 @@ node bin/queuectl.js --version
 ## 🚀 Quick Start
 
 ```bash
-# 1. Enqueue a job
+# 1. Enqueue a job (Windows PowerShell)
+node bin/queuectl.js enqueue "{\"id\":\"job1\",\"command\":\"echo Hello World\"}"
+
+# 1. Enqueue a job (Linux/Mac)
 node bin/queuectl.js enqueue '{"id":"job1","command":"echo Hello World"}'
 
 # 2. Start workers (in a separate terminal)
