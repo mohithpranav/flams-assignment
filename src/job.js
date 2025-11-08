@@ -1,5 +1,9 @@
 const { v4: uuidv4 } = require("crypto");
 
+/**
+ * Job Model
+ * Represents a background job with retry logic and state management
+ */
 class Job {
   constructor(data) {
     this.id = data.id || this.generateId();
