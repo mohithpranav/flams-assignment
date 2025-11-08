@@ -1,9 +1,30 @@
+# Dependencies
 node_modules/
+
+# Database files
 *.db
-*.log
-.DS_Store
-.env
-data/
 queuectl.db
 queuectl.json
 config.json
+data/
+
+# Log files
+*.log
+logs/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Process files
+*.pid
