@@ -10,7 +10,9 @@ const program = new Command();
 
 program
   .name("queuectl")
-  .description("CLI-based background job queue system with workers, retry logic, and DLQ")
+  .description(
+    "CLI-based background job queue system with workers, retry logic, and DLQ"
+  )
   .version(package.version);
 
 // Enqueue command
