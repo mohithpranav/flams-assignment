@@ -1,0 +1,9 @@
+node_modules/
+*.db
+*.log
+.DS_Store
+.env
+data/
+queuectl.db
+queuectl.json
+config.json

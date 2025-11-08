@@ -1,0 +1,26 @@
+{
+  "name": "queuectl",
+  "version": "1.0.0",
+  "description": "A CLI-based background job queue system with worker processes, retry logic, and Dead Letter Queue",
+  "main": "src/index.js",
+  "bin": {
+    "queuectl": "./bin/queuectl.js"
+  },
+  "scripts": {
+    "start": "node bin/queuectl.js",
+    "test": "node tests/test-scenarios.js"
+  },
+  "keywords": [
+    "queue",
+    "job",
+    "worker",
+    "cli",
+    "background-jobs"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^11.1.0",
+    "chalk": "^4.1.2"
+  }
+}
