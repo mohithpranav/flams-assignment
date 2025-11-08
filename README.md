@@ -1,7 +1,6 @@
 # QueueCTL - CLI-Based Background Job Queue System
 
 [![Node.js](https://img.shields.io/badge/node.js-v14+-green.svg)](https://nodejs.org/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
 A production-grade CLI-based background job queue system with worker processes, automatic retry logic using exponential backoff, and a Dead Letter Queue (DLQ) for permanently failed jobs.
 
@@ -510,11 +509,7 @@ The codebase is structured for easy extension:
 - **Error Handling**: Comprehensive try-catch with user-friendly messages
 - **Logging**: Console logs with colors for better readability
 
-## 📄 License
-
-MIT License - feel free to use for learning or production!
-
-## 👨‍💻 Author
+## ‍💻 Author
 
 Built as part of QueueCTL Backend Developer Internship Assignment
 
