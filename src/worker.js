@@ -17,7 +17,7 @@ class Worker {
 
   async start() {
     this.running = true;
-    console.log(`[Worker ${this.id}] Started`);
+    console.log(`[Worker ${this.id}] Started and ready to process jobs`);
 
     while (this.running) {
       try {
@@ -37,7 +37,7 @@ class Worker {
       }
     }
 
-    console.log(`[Worker ${this.id}] Stopped`);
+    console.log(`[Worker ${this.id}] Stopped gracefully`);
   }
 
   async processJob(job) {
