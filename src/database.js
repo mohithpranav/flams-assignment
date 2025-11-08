@@ -1,6 +1,10 @@
 const path = require("path");
 const fs = require("fs");
 
+/**
+ * JobDatabase - JSON-based persistent storage for job queue
+ * Provides CRUD operations and job locking mechanism
+ */
 class JobDatabase {
   constructor(dbPath = null) {
     const dataDir = path.join(process.cwd(), "data");
